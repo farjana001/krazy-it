@@ -1,0 +1,23 @@
+@import '../../Style/Style';
+
+.header__bg{
+    background-image: url(../../../images/headerbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.header__content{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.header__content>h1{
+    font-size: 52px;
+    font-weight: 700;
+    background: -webkit-linear-gradient( #52afd1, #033763);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header__content>p{
+    font-size: 20px;
+}
