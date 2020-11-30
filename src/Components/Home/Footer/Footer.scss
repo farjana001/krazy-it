@@ -1,0 +1,39 @@
+@import '../../Style/Style';
+footer{
+    background-color: #171426;
+    padding: 70px 0 30px 0;
+  }
+  .footer__logoText{
+    font-size: 52px;
+    font-weight: 700;
+    background: -webkit-linear-gradient( #9EDFE5, #54c5cf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .footer-body h6{
+    margin-bottom: 30px;
+  }
+  .social-icon{
+    margin-left: -40px;
+  }
+  .social-icon li{
+    display: inline-block;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .social-icon li>img{
+    width: 80%;
+  }
+  .copyright{
+    margin-top: 70px;
+  }
+  .copyright>p{
+    letter-spacing: 5px;
+    color: rgb(221, 216, 216);
+  }
+  .newsletterInput{
+      margin: 15px 0;
+      padding: 8px 65px 8px 8px;
+  }
+  
+  

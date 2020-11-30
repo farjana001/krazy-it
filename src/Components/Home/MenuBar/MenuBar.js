@@ -13,7 +13,7 @@ const Menubar = () => {
                 <div className="container">
                     <Navbar expand="lg">
                         <div className="logo">
-                            <Link to="/home" className=""><h1 className="logo-text ml-3">PowerIT</h1></Link>
+                            <Link to="/home" className="logo__link"><h1 className="logo-text ml-3">PowerIT</h1></Link>
                         </div>
                         <Navbar.Toggle className="navbar-hamburger" aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">

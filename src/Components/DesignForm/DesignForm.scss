@@ -1,0 +1,37 @@
+@import '../Style/Style';
+
+.designForm__wrapper{
+    margin: $section-margin;
+    text-align: center;
+}
+.designForm__wrapper>h1{
+    font-weight: 700;
+    background: $header-gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+}
+.designForm__wrapper>p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.progressBar{
+    width: 80%;
+}
+.progressBar>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progressBar>ul>li{
+    list-style-type: none;
+}
+.progress__item>img{
+    width: 85px;
+}
+.progress__item>p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: $brand-color;
+}

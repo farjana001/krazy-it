@@ -1,0 +1,33 @@
+@import '../../Style/Style';
+
+.template__body{
+    margin-left: 28%;
+    margin-top: 8%;
+}
+.uploadImage__body{
+    background-image: url(../../../images/t-shirt.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: top center;
+}
+.uploadImage__input{
+   position: relative;
+   right: 18%;
+}
+input[type="file"] {
+    // display: none;
+}
+.custom-file-upload {
+    background-color: #b8eef0;
+    border: 2px solid #44e2e7;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 9px 60px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+#upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }

@@ -1,10 +1,10 @@
 @import '../../Style/Style';
 
-.logo:hover{
+.logo__link:hover{
     text-decoration: none;
 }
 .logo-text{
-        background: -webkit-linear-gradient( #7eceeb, #472404);
+        background: -webkit-linear-gradient(#73c00f, #08457a);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 700;

@@ -1,0 +1,16 @@
+@import '../Style/Style';
+
+.service-card{
+    cursor: pointer;
+}
+.service-card:hover{
+    box-shadow: 5px 5px 25px rgb(226, 225, 225);
+    transition: all 0.5s ease;
+}
+.icon-image img{
+    
+}
+.icon-image:hover img{
+    transition: all 0.6s ease-in-out;
+    transform: scale(1.3);
+}

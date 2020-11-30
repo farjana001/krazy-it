@@ -1,2 +1,26 @@
 $default-color: #000;
-$brand-color: #74D3DC;
+$brand-color: #033763;
+$section-margin: 70px 0;
+$header-gradient: -webkit-linear-gradient( #52afd1, #033763);
+.button-brand{
+    background: linear-gradient(to right, #3bb2b6, #094981);
+    border: none;
+    outline: none;
+    color: #f3f4f5;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+.button-brand:hover{
+    background: linear-gradient(to right, #71e5e9, #076cc5);
+    transition: all 0.4s ease;
+}
+.content__header{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    background: $header-gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}            
